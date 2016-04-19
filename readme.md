@@ -3,6 +3,11 @@
 This is a sample application to show how to create an UI quickly and with ease
 using the Egeo UI Kit and the Egeo Base Framework.
 
+This sample includes the Sass True Framework as well as the Karma and Jasmine
+frameworks installed and working. Do you also have surfire-reports and lcov reports
+about the test coverage. Once you launch npm run test, you can see a new folder
+in */dist/*, called *test-coverage* where you can find the reports.
+
 ## How to install Egeo as a dependency of your project
 
 If you work with Npm or Bower, the only thing to do is to configure the Github project of Egeo as a git repository as it shown below:

@@ -29,6 +29,7 @@
 
         function test() {
             console.log("TestController: test");
+            return 'test';
         }
     }
 })();
