@@ -8,6 +8,9 @@ frameworks installed and working. Do you also have surfire-reports and lcov repo
 about the test coverage. Once you launch npm run test, you can see a new folder
 in */dist/*, called *test-coverage* where you can find the reports.
 
+This sample includes also a pre-commit process that ensures that all tests must
+be passed before upload a commit to github.
+
 ## How to install Egeo as a dependency of your project
 
 If you work with Npm or Bower, the only thing to do is to configure the Github project of Egeo as a git repository as it shown below:
