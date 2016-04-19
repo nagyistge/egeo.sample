@@ -1,0 +1,5 @@
+// All test should be done over mixins.
+// Normal classes could crash tests.
+$egeo-silent-classes: true;
+
+@import 'tools/tests.colors';
