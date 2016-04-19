@@ -6,8 +6,7 @@
   "scripts": {
     "test": "mocha tests/test-sass.js && karma start",
     "serve": "grunt serve",
-    "dist": "grunt",
-    "update": "grunt update-kss"
+    "dist": "grunt"
   },
   "author": "Alex R Chies (alejandrorodriguez@stratio.com)",
   "license": "ISC",
