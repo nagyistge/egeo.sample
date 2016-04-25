@@ -13,7 +13,6 @@
     angular
         .module('myApp', [
             'ngSanitize',
-            'angular-bind-html-compile',
             'egeo.config',
             'egeo.buttons',
             'egeo.childrenClass',
