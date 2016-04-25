@@ -11,35 +11,6 @@ in */dist/*, called *test-coverage* where you can find the reports.
 This sample includes also a pre-commit process that ensures that all tests must
 be passed before upload a commit to github.
 
-## How to install Egeo as a dependency of your project
-
-If you work with Npm or Bower, the only thing to do is to configure the Github project of Egeo as a git repository as it shown below:
-
-### With Npm
-
-Include the Egeo Sample dependency in the *dependencies* section of your package.json file:
-```
-  "dependencies": {
-    ...
-    "egeo.sample": "git://github.com/Stratio/egeo.sample.git#master",
-    ...
-  }
-```
-And launch `npm install`. You can also update the library using `npm update egeo.sample`.
-
-### With Bower
-
-Include the Egeo Sample dependency in the *dependencies* section of your bower.json file:
-```
-  "dependencies": {
-    ...
-    "egeo.sample": "git://github.com/Stratio/egeo.sample.git#master",
-    ...
-  }
-```
-And launch `bower install`. You can also update the library using `bower update egeo.sample`.
-
-
 ## How to install it locally
 
 Download the project to any folder via `git clone` or using the ZIP button and launch `npm install` to install all dependencies needed to build the website ([NodeJS](https://nodejs.org) and [Git client](https://git-scm.com/download/) are required to be installed first to can use these commands on your console).

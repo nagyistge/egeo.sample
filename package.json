@@ -1,6 +1,6 @@
 {
   "name": "egeo.sample",
-  "version": "0.1.0",
+  "version": "0.2.0-rc.0",
   "description": "Sample App with all the needs to begin an app using Egeo Framework.",
   "main": "index.html",
   "scripts": {
@@ -12,8 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "angular-mocks": "^1.5.3",
-    "egeo.ui.base": "https://github.com/Stratio/egeo.ui.base.git",
-    "egeo.ui.kit": "https://github.com/Stratio/egeo.ui.kit.git",
+    "egeo.ui.base": "https://github.com/Stratio/egeo.ui.base.git#v0.2.0-rc.0",
+    "egeo.ui.kit": "https://github.com/Stratio/egeo.ui.kit.git#v0.2.0-rc.0",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^1.0.1",
